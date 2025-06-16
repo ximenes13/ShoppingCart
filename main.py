@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# Shopping Cart with Menu Interface
 
 cart = {}
 
@@ -67,19 +65,3 @@ def menu():
 
 # Run the menu
 menu()
-=======
-from continente_scraper import search_continente_selenium
-
-if __name__ == "__main__":
-    food = input("Enter food name: ")
-    results = search_continente_selenium(food)
-
-    if results:
-        print(f"\nTop results for '{food}' on Continente:\n")
-        for item in results:
-            print(f"{item['name']}")
-            print(f"Price: {item['price']}")
-            print(f"Link: {item['link']}\n")
-    else:
-        print("No results found.")
->>>>>>> 80d3a07312161aa18ca22c42a4d08a08fa6c3f5d
