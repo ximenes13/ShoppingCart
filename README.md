@@ -1,6 +1,7 @@
 # 🛒 Shopping Cart App with Python + Tkinter
 
 This project is a desktop application built using Python and Tkinter. It allows users to manage a shopping cart by adding items, specifying prices and quantities, removing items, clearing the cart, and tracking a history of actions. The app also supports light and dark themes for a better user experience.
+
 ---
 
 ## 🚀 Features
